@@ -1,0 +1,185 @@
+body {
+  background-color: #b9b9b9;
+  margin: 0;
+  padding: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo {
+  margin: 3px 10px 23px;
+  padding-left: 140px;
+}
+
+nav .logo img {
+  -webkit-filter: drop-shadow(1px 5px 2px #616161);
+          filter: drop-shadow(1px 5px 2px #616161);
+}
+
+nav .menu {
+  font-size: 25px;
+  margin: 30px 20px;
+  padding-right: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .menu .menu-botao {
+  -webkit-box-shadow: 1px 5px 5px #494949;
+          box-shadow: 1px 5px 5px #494949;
+  border-radius: 40px;
+  padding: 10px;
+  margin-right: 40px;
+  font-size: 15px;
+  background-color: black;
+  font-weight: 900;
+  color: white;
+}
+
+nav .menu .menu-sub {
+  border-radius: 70px;
+  padding: 5px 13px;
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: 1px 5px 5px #494949;
+          box-shadow: 1px 5px 5px #494949;
+}
+
+header .cabecalho {
+  background-color: #FFFDFF;
+  border-radius: 20px;
+  margin: 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  -webkit-box-shadow: 1px 5px 15px #494949;
+          box-shadow: 1px 5px 15px #494949;
+}
+
+header .cabecalho .caixa1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  min-width: 340px;
+  padding: 50px;
+}
+
+header .cabecalho .caixa1 h1 {
+  padding-top: 90px;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+header .cabecalho .caixa1 .menu-botao {
+  width: 100px;
+  border-radius: 80px;
+  padding: 10px 20px;
+  margin-right: 40px;
+  font-size: 15px;
+  background-color: black;
+  font-weight: 900;
+  color: white;
+  -webkit-box-shadow: 1px 5px 5px #494949;
+          box-shadow: 1px 5px 5px #494949;
+}
+
+header .cabecalho .caixa1 .troca-image {
+  padding-top: 200px;
+}
+
+header .cabecalho .caixa1 .troca-image .ativo {
+  background-color: black !important;
+}
+
+header .cabecalho .caixa1 .troca-image button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 80px;
+  padding: 14px 14px;
+  margin-right: 20px;
+  font-size: 15px;
+  background-color: #7c7c7c;
+  -webkit-box-shadow: 1px 5px 5px #494949;
+          box-shadow: 1px 5px 5px #494949;
+}
+
+header .cabecalho .caixa1 .troca-image button:focus {
+  outline: none;
+}
+
+header .cabecalho .caixa2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+header .cabecalho .caixa2 img {
+  width: 100%;
+  min-width: 380px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+header .fade {
+  opacity: 0;
+  -webkit-animation: fade 1s forwards ease-in;
+          animation: fade 1s forwards ease-in;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */

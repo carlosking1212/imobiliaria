@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(185, 185, 185);
+    margin:0;
+    padding: 0px;
+}
+
+*{
+    margin:0;
+    padding: 0px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        margin: 3px 10px 23px;
+        padding-left:140px;
+        img{
+            filter: drop-shadow(1px 5px 2px rgb(97, 97, 97));
+        }
+    }
+    .menu{
+        font-size: 25px;
+        margin: 30px 20px;
+        padding-right:140px;
+        display: flex;
+        align-items: center;
+
+        .menu-botao{
+            box-shadow: 1px 5px 5px rgb(73, 73, 73);
+            border-radius: 40px;
+            padding: 10px;
+            margin-right: 40px;
+            font-size: 15px;
+            background-color: black;
+            font-weight: 900;
+            color: rgb(255, 255, 255);
+        }
+
+        .menu-sub{
+            border-radius: 70px;
+            padding: 5px 13px;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            box-shadow: 1px 5px 5px rgb(73, 73, 73);
+        }
+    }
+}
+
+header{
+    .cabecalho{
+        background-color: #FFFDFF;
+        border-radius: 20px;
+        margin:0 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        box-shadow: 1px 5px 15px rgb(73, 73, 73);
+
+        .caixa1{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            min-width: 340px;
+            padding: 50px;
+
+            h1{
+                padding-top: 90px;
+                font-size: 60px;
+                font-weight: 900;
+            }
+            
+            .menu-botao{
+                width: 100px;
+                border-radius: 80px;
+                padding: 10px 20px;
+                margin-right: 40px;
+                font-size: 15px;
+                background-color: black;
+                font-weight: 900;
+                color: rgb(255, 255, 255);
+                box-shadow: 1px 5px 5px rgb(73, 73, 73);
+            }
+            .troca-image{
+               padding-top:200px;
+
+               .ativo{
+                    background-color: black !important;
+                }
+               
+                button{
+                    width: 20px;
+                    height:20px;
+                    border: none;
+                    border-radius: 80px;
+                    padding: 14px 14px;
+                    margin-right: 20px;
+                    font-size: 15px;
+                    background-color: rgb(124, 124, 124);
+                    box-shadow: 1px 5px 5px rgb(73, 73, 73);
+                }
+
+                button:focus{
+                    outline: none;
+                    // background-color: black !important;
+                }
+            }
+        }
+        .caixa2{
+            display: flex;
+            justify-content: center;
+            width: 50%;
+            img{
+                width: 100%;
+                min-width: 380px;
+                object-fit:contain;
+                // opacity: 0;
+            }
+        }
+    }
+
+    .fade{
+        opacity: 0;
+        animation: fade 1s forwards ease-in;
+    }
+    @keyframes fade {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+}
